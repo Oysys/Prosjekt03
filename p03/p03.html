@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prosjekt 3</title>
+<meta charset="utf-8">
+<style>
+    body {
+        background-color: #e3e5e8;
+    }
+    .header {
+        background-color: rgb(88, 88, 221);
+        text-shadow: 2px 2px 5px red;
+        position: fixed; 
+        top: -30px;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        width: 100%;
+        height: 80px;
+        left: -2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .før {
+        position: fixed;
+        top: 30px;
+        left: 140px;
+    }
+    .etter {
+        position: fixed;
+        left: 500px;
+        top: 30px;
+    }
+    .venstre {
+        position: fixed;
+        text-shadow: 2px 2px 5px red;
+        left: 260px;
+        top: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .høyre {
+        position: fixed;
+        text-shadow: 2px 2px 5px red;
+        left: 880px;
+        top: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+</head>
+<body>
+<div class="header"><center><p>Mediatrening</p></center></div>
+<div class="før">
+    <h1 class="venstre">Klipp før redigering</h1>
+    <video width="500" height="500" controls="controls">
+    <source src="før.mp4" type="video/mp4">
+</video></div>
+<div class="etter">
+    <h1 class="høyre">Klipp etter redigering</h1>
+    <div class="etter"><video width="300" height="300">
+        <source src="etter.mp4" type="video/mp4">
+    </video></div>
+</div>
+</body>
+</html>
